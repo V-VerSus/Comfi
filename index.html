@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Comfi</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="img/logo.png" alt="Logo">
+                        <span class="logo__name">Comfi</span>
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item submenu1">
+                            <a href="#" class="header__link">
+                                Product
+                                <svg class="logo__angle" xmlns="http://www.w3.org/2000/svg" height="27" width="27" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                <ul class="header__sublist sublist1">
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Courses</li></a>
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Strategy</li></a>
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Finance</li></a>
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Analisys</li></a>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="header__item submenu2">
+                            <a href="#" class="header__link">
+                                Solutions
+                                <svg class="logo__angle" xmlns="http://www.w3.org/2000/svg" height="27" width="27" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                <ul class="header__sublist sublist2">
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Developing</li></a>
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Planning</li></a>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="header__item submenu3">
+                            <a href="#" class="header__link">
+                                Resources
+                                <svg class="logo__angle" xmlns="http://www.w3.org/2000/svg" height="27" width="27" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                <ul class="header__sublist sublist3">
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Business idea</li></a>
+                                    <a href="#" class="header__sublink"><li class="header__subitem">Structure</li></a>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
+                        <button class="project__btn">Subscribe</button> 
+                    </ul> <!-- /.header__list-->
+                </nav> 
+
+
+                <!--  Header sidebar    -->
+                <!--  Header burger    -->
+                <div class="header__burger burger">
+                    <svg class="burger__menu" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+
+                    <svg class="burger__close" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z"/></svg>
+                </div>
+                <nav class="header__sidebar sidebar">
+                    <ul class="sidebar__menu">
+                        <a href="#" class="sidebar__link" onclick="closeMenu()"><li class="sidebar__item">Product</li></a>
+                        <a href="#" class="sidebar__link" onclick="closeMenu()"><li class="sidebar__item">Solutions</li></a>
+                        <a href="#" class="sidebar__link" onclick="closeMenu()"><li class="sidebar__item">Resources</li></a>
+                        <a href="#" class="sidebar__link" onclick="closeMenu()"><li class="sidebar__item">Pricing</li></a>
+                    </ul>
+                </nav>
+                <!--  Header sidebar end-->
+                
+            </div> <!-- /.header-top -->
+            <div class="header__content">
+                <div class="header__left left">
+                    <h1 class="header__title">Academy <span>of Your Business</span></h1>
+                    <h2 class="header__text">Organizes works so team know what to do, why it matters, and how to get it done. </h2>
+                    <div class="project__btn started">Get Started</div>
+                </div>
+                <div class="header__right right">
+                    <div class="right__wrap">
+                        <img class="right__img" src="img/girl.png" alt="girl">
+                    </div>
+                    <div class="right__clients">6k <span>Clients</span></div>
+                    <div class="right__sale">40% <span>Market</span></div>
+                    <div class="right__msg msg">
+                        <img class="msg__img" src="img/hand.png" alt="text">
+                        <span class="msg__text">Bring your ideas to life</span>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.container-->
+    </header>
+
+    <main class="main">
+        <section class="process">
+            <div class="container">
+                <div class="process__top">
+                    <h2 class="process__title project__title">The process we follow</h2>
+                    <h3 class="process__subtitle project__subtitle">As a academy of bussiness, we are going through the development cycle.</h3>
+                </div>
+                <div class="process__info">
+                    <div class="process__card">
+                        <div class="process__icon icon1">
+                            <img class="icon__img" src="img/idea.png" alt="ico">
+                        </div>
+                        <div class="process__name">Business idea</div>
+                        <div class="process__text">What you want your bussiness to be.</div>
+                    </div>
+                    <div class="process__card">
+                        <div class="process__icon icon2">
+                            <img class="icon__img" src="img/plan.png" alt="ico2">
+                        </div>
+                        <div class="process__name">Planning</div>
+                        <div class="process__text">A business plan helps formalize your idea.</div>
+                    </div>
+                    <div class="process__card">
+                        <div class="process__icon icon3">
+                            <img class="icon__img" src="img/develope.png" alt="ico3">
+                        </div>
+                        <div class="process__name">Develope</div>
+                        <div class="process__text">Ideation, prototyping, costing of your product.</div>
+                    </div>
+                    <div class="process__card">
+                        <div class="process__icon icon4">
+                            <img class="icon__img" src="img/structure.png" alt="ico4">
+                        </div>
+                        <div class="process__name">Business structure</div>
+                        <div class="process__text">Key parts of your business.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story">
+            <div class="container">
+                <div class="story__wrap">
+                    <div class="story__pic">
+                        <img class="story__img" src="img/girl2.jpg" alt="img-story">
+                    </div>
+                    <div class="story__title project__title">Our Story</div>
+                    <div class="story__subtitle project__subtitle">We specialise in organising professional training courses and we have been doin it in  London since 1994. As a academy of business, we are going through the development cycle.</div>
+                    <div class="story__btn project__btn started">Get Started</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services__top">
+                    <div class="services__title project__title">Services we provide</div>
+                    <div class="services__subtitle project__subtitle">We specialise in organising professional training courses.</div>
+                </div>
+
+                <div class="services__info">
+                    <div class="services__card card">
+                        <div class="card__title">Account and Analysis</div>
+                        <div class="card__text">We've designed and built ecommerce experiences that have driven sales.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                    <div class="services__card card2">
+                        <div class="card__title">Finance and Banking</div>
+                        <div class="card__text">The ability to independently value an enterprise is an essential tool for making business and strategic decisions.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                    <div class="services__card card3">
+                        <div class="card__title">Strategic Bussines Leader</div>
+                        <div class="card__text">Strategic bussiness Leader is a training course from the Strategic Professional level.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                    <div class="services__card card3">
+                        <div class="card__title">Preparatory Course</div>
+                        <div class="card__text">The ability to independently value an enterprise is an essential tool for making business and strategic decisions.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                    <div class="services__card card">
+                        <div class="card__title">Business English Writing Skills</div>
+                        <div class="card__text">A unique opportunity to gain guidance and feedback from our expert.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                    <div class="services__card card2">
+                        <div class="card__title">Strategic Business Reporting</div>
+                        <div class="card__text">Strategic Business Reporting is a Professional level training course. It covers topics related to advanced financial reporting, including leasing.</div>
+                        <div class="card__btn project__btn">Get Started
+                            <img class="card__img" src="img/forward.png" alt="ico5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faq__top">
+                    <div class="faq__title project__title">Frequently Asked Questions</div>
+                    <div class="faq__subtitle project__subtitle">If you have any further questions please contact us.</div>
+                </div>
+
+
+                <div class="faq__col">
+                    <div class="faq__wrap">
+                        <div class="faq__elem elem">
+                            <div class="elem__top">
+                                <div class="elem__title">Does Comfi provide code kit as well?</div>
+                                <input class="elem__input" type="checkbox" id="accord1">
+                                <label class="elem__open" for="accord1">
+                                    <svg class="elem__icon" xmlns="http://www.w3.org/2000/svg" height="38" width="38" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                </label>
+                                <div class="elem__text">Comfi is a landing page UI kit for Figma. The kit consist of 170+ blocks from 15 categories with ready-to-use sample pages. Also, it comes with block for desktop, tablet and mobile layouts.</div>
+                            </div>
+                        </div>
+                        <div class="faq__elem elem">
+                            <div class="elem__top">
+                                <div class="elem__title">Does Comfi provide code kit as well?</div>
+                                <input class="elem__input" type="checkbox" id="accord2">
+                                <label class="elem__open" for="accord2">
+                                    <svg class="elem__icon" xmlns="http://www.w3.org/2000/svg" height="38" width="38" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                </label>
+                                <div class="elem__text">Comfi is a landing page UI kit for Figma. The kit consist of 170+ blocks from 15 categories with ready-to-use sample pages. Also, it comes with block for desktop, tablet and mobile layouts.</div>
+                            </div>
+                        </div>
+                
+                    </div>
+
+                    <div class="faq__wrap">
+                        <div class="faq__elem elem">
+                            <div class="elem__top">
+                                <div class="elem__title">Does Comfi provide code kit as well?</div>
+                                <input class="elem__input" type="checkbox" id="accord3">
+                                <label class="elem__open" for="accord3">
+                                    <svg class="elem__icon" xmlns="http://www.w3.org/2000/svg" height="38" width="38" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                </label>
+                                <div class="elem__text">Comfi is a landing page UI kit for Figma. The kit consist of 170+ blocks from 15 categories with ready-to-use sample pages. Also, it comes with block for desktop, tablet and mobile layouts.</div>
+                            </div>
+                        </div>
+                        <div class="faq__elem elem">
+                            <div class="elem__top">
+                                <div class="elem__title">Does Comfi provide code kit as well?</div>
+                                <input class="elem__input" type="checkbox" id="accord4">
+                                <label class="elem__open" for="accord4">
+                                    <svg class="elem__icon" xmlns="http://www.w3.org/2000/svg" height="38" width="38" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                </label>
+                                <div class="elem__text">Comfi is a landing page UI kit for Figma. The kit consist of 170+ blocks from 15 categories with ready-to-use sample pages. Also, it comes with block for desktop, tablet and mobile layouts.</div>
+                            </div>
+                        </div>
+                        <div class="faq__elem elem">
+                            <div class="elem__top">
+                                <div class="elem__title">Does Comfi provide code kit as well?</div>
+                                <input class="elem__input" type="checkbox" id="accord5">
+                                <label class="elem__open" for="accord5">
+                                    <svg class="elem__icon" xmlns="http://www.w3.org/2000/svg" height="38" width="38" viewBox="0 0 48 48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                                </label>
+                                <div class="elem__text">Comfi is a landing page UI kit for Figma. The kit consist of 170+ blocks from 15 categories with ready-to-use sample pages. Also, it comes with block for desktop, tablet and mobile layouts.</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>    
+
+            </div>
+        </section>
+
+    </main>   
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="img/logo.png" alt="Logo">
+                        <span class="logo__name">Comfi</span>
+                    </a>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__name">Menu</div>
+                    <ul class="footer__list">
+                        <a href="#" class="footer__link"><li class="footer__item">Services</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">Works</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">About</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">Contact</li></a>
+                    </ul>
+                </div>
+                <div class="footer__connect">
+                    <div class="footer__name">Connect</div>
+                    <ul class="footer__list">
+                        <a href="#" class="footer__link"><li class="footer__item">LinkedIn</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">Facebook</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">Twitter</li></a>
+                        <a href="#" class="footer__link"><li class="footer__item">Instagram</li></a>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <div class="footer__name">Subscribe to our newsletter</div>
+                    <div class="footer__form">
+                        <input class="footer__email" type="text" placeholder="enter your email...">
+                        <div class="footer__btn project__btn started">Subscribe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__rights">
+                <div class="footer__end">2023 Comfi. All right Reserved</div>
+                <div class="footer__end">
+                    <a href="#" class="end__link">Privacy Policy</a>
+                    <a href="#" class="end__link">Terms & Conditions</a>
+                    <a href="#" class="end__link">Code of Cunduct</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
